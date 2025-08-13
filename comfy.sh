@@ -8,3 +8,8 @@ echo "color slate" >> ~/.vimrc
 echo ':nmap <F2> :set number!<CR>' >> ~/.vimrc
 
 echo "source lscolors.sh" >> ~/.bashrc
+
+# history section
+echo "export HISTTIMEFORMAT='%F %T ' " >> ~/.bashrc
+echo "export HISTSIZE=5000" >> ~/.bashrc
+echo "shopt -s histappend" >> ~/.bashrc
